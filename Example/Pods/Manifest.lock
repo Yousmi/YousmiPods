@@ -1,0 +1,16 @@
+PODS:
+  - YousmiPods (0.1.0)
+
+DEPENDENCIES:
+  - YousmiPods (from `../`)
+
+EXTERNAL SOURCES:
+  YousmiPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YousmiPods: fe8596bc0a68dd96cb4d71dc43de99769868e259
+
+PODFILE CHECKSUM: 8f3388221041178619a879d4b24fb13fb73f8d5a
+
+COCOAPODS: 1.5.3

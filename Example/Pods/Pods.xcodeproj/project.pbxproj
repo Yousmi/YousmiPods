@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A6052B2C5B26844B49C076F1298B8D /* Pods-YousmiPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 800A5D9004C72DF40BC8B9D36E4A3D05 /* Pods-YousmiPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E265C86EC067D41E255FD0B3852381F /* Pods-YousmiPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93518453818E460BB18F54629B80F45D /* Pods-YousmiPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D23EE9D468EB0FB558E5E91B0DCC3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		447FF328F15656A3D4748839BC1E072A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 536F2E149E01A8755B196C2143B5998D /* ReplaceMe.m */; };
+		5EAF2DFB131083971AD6D5C5EA5B5E9E /* Pods-YousmiPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F1D28EADDE55854E4AAC193FB56F0C /* Pods-YousmiPods_Example-dummy.m */; };
+		937479BA143F4795A0A59CEB118EBFF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C21E543CAD429259C59758C93751E538 /* YousmiPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EF693898C0C772700A91543E13CF0C /* YousmiPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D48A2D16BAA329DFC194CDDD10DAB4 /* Pods-YousmiPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578EEBFF2927AD2CA5668BE71F7A666B /* Pods-YousmiPods_Tests-dummy.m */; };
+		C9C8B08F810DD6F2BFF1070F9946F58B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FB840F7890FE3E0BC1B53396646A24E9 /* YousmiPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3E0C2512B6EECC1F49D3F1F6DB75B4 /* YousmiPods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64FD6B2B282A65337D01477F0CBD7B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3527B9B2B0D9A9E17A973208135515;
+			remoteInfo = YousmiPods;
+		};
+		A0E15A589B98E972746614A77952E968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FD8660E681F4E4A554E34FAABDB2BE6;
+			remoteInfo = "Pods-YousmiPods_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C59B62C7F0804F4E774C967DA78BF9 /* Pods-YousmiPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YousmiPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0359AF9C7B45DE65B1C4F7A67BE1CED0 /* YousmiPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YousmiPods.modulemap; sourceTree = "<group>"; };
+		03C8EAD49C2A918582E302295046F027 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C32EB2630ED8D9312D9C6760F2C580F /* Pods_YousmiPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YousmiPods_Tests.framework; path = "Pods-YousmiPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F77FCC4454A7774CAAF9187C426DBD4 /* Pods-YousmiPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Example.release.xcconfig"; sourceTree = "<group>"; };
+		342374A1D8DB0A67AC5E404ECC7597D1 /* YousmiPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YousmiPods.xcconfig; sourceTree = "<group>"; };
+		356911993451D61DCF3BE0CA3E58C7D5 /* Pods-YousmiPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YousmiPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E7913CDB345369A0FF97F32EDA818F9 /* Pods-YousmiPods_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Tests-resources.sh"; sourceTree = "<group>"; };
+		45E3710F450E16F240A220124B7E522F /* Pods-YousmiPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YousmiPods_Tests.modulemap"; sourceTree = "<group>"; };
+		4CA3CB1410C7AE08652DDA26D7C4FF9E /* Pods-YousmiPods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Example-frameworks.sh"; sourceTree = "<group>"; };
+		536F2E149E01A8755B196C2143B5998D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YousmiPods/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		578EEBFF2927AD2CA5668BE71F7A666B /* Pods-YousmiPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YousmiPods_Tests-dummy.m"; sourceTree = "<group>"; };
+		59F1D28EADDE55854E4AAC193FB56F0C /* Pods-YousmiPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YousmiPods_Example-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6930E0DDC25A85A8DFEC06133CF3E1C8 /* Pods_YousmiPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YousmiPods_Example.framework; path = "Pods-YousmiPods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C35590ADD252435EF223572A3C861D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A380B3EC2FE44362710DA62FD651935 /* Pods-YousmiPods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YousmiPods_Example.modulemap"; sourceTree = "<group>"; };
+		7C37ED528ECDB683C5DA96218CEEA8E8 /* YousmiPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YousmiPods-prefix.pch"; sourceTree = "<group>"; };
+		800A5D9004C72DF40BC8B9D36E4A3D05 /* Pods-YousmiPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YousmiPods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93518453818E460BB18F54629B80F45D /* Pods-YousmiPods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YousmiPods_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B3BA1E747782776310D33E4AB96AA66 /* Pods-YousmiPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E1059DE53FAF56A9F69F11B3644CEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B840D8EFD87C0487DB558A7AB0910A68 /* Pods-YousmiPods_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C929FCDE8619272C4059A8A273319E31 /* YousmiPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YousmiPods.framework; path = YousmiPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E7CE8C9EAE3AC655E7102FD9AC9C90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA5DA0F095412E31FDE4A9EE566ED0A1 /* Pods-YousmiPods_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Example-resources.sh"; sourceTree = "<group>"; };
+		DBF3A4285D22407625C44666221C9CFE /* Pods-YousmiPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD5728A9AA3CC8D4530A9AFD9632646 /* Pods-YousmiPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YousmiPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDA381D24EA1BDBC34F6A896CFF5E39F /* Pods-YousmiPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F224B8D3772AFCB4C4173C6953706E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EF693898C0C772700A91543E13CF0C /* YousmiPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YousmiPods-umbrella.h"; sourceTree = "<group>"; };
+		F9307C6C5FFD22FA782F6D6F3B4069E3 /* YousmiPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YousmiPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FCCDCB751934ED1336C8D1B113D09A48 /* Pods-YousmiPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YousmiPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE3E0C2512B6EECC1F49D3F1F6DB75B4 /* YousmiPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YousmiPods-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C63CCE1254E2026C27FC5459E5AD26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D23EE9D468EB0FB558E5E91B0DCC3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD4440AAA3B5D4B2414C805D79F417D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C8B08F810DD6F2BFF1070F9946F58B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFF21D75DE64CBEF1F815F429C64D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				937479BA143F4795A0A59CEB118EBFF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F29C6CDB5A3FE873914862ECBA8B59 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A8E1059DE53FAF56A9F69F11B3644CEF /* LICENSE */,
+				D2E7CE8C9EAE3AC655E7102FD9AC9C90 /* README.md */,
+				F9307C6C5FFD22FA782F6D6F3B4069E3 /* YousmiPods.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9CF6C20A29F743C6DB07B8D3427B7210 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				99B537F1BF358591A8105723001E3441 /* Products */,
+				FBAD5B53E0587BC38BB539D40EF1996E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99B537F1BF358591A8105723001E3441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6930E0DDC25A85A8DFEC06133CF3E1C8 /* Pods_YousmiPods_Example.framework */,
+				0C32EB2630ED8D9312D9C6760F2C580F /* Pods_YousmiPods_Tests.framework */,
+				C929FCDE8619272C4059A8A273319E31 /* YousmiPods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1935274E6BADD11C91613F827CE425 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C35590ADD252435EF223572A3C861D /* Info.plist */,
+				0359AF9C7B45DE65B1C4F7A67BE1CED0 /* YousmiPods.modulemap */,
+				342374A1D8DB0A67AC5E404ECC7597D1 /* YousmiPods.xcconfig */,
+				FE3E0C2512B6EECC1F49D3F1F6DB75B4 /* YousmiPods-dummy.m */,
+				7C37ED528ECDB683C5DA96218CEEA8E8 /* YousmiPods-prefix.pch */,
+				F6EF693898C0C772700A91543E13CF0C /* YousmiPods-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YousmiPods";
+			sourceTree = "<group>";
+		};
+		9CF6C20A29F743C6DB07B8D3427B7210 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9405C68372490620DF868F925C958E5 /* YousmiPods */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9405C68372490620DF868F925C958E5 /* YousmiPods */ = {
+			isa = PBXGroup;
+			children = (
+				536F2E149E01A8755B196C2143B5998D /* ReplaceMe.m */,
+				45F29C6CDB5A3FE873914862ECBA8B59 /* Pod */,
+				9B1935274E6BADD11C91613F827CE425 /* Support Files */,
+			);
+			name = YousmiPods;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0A599C1B311A4A922F2AB699A71424C /* Pods-YousmiPods_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F224B8D3772AFCB4C4173C6953706E07 /* Info.plist */,
+				45E3710F450E16F240A220124B7E522F /* Pods-YousmiPods_Tests.modulemap */,
+				EBD5728A9AA3CC8D4530A9AFD9632646 /* Pods-YousmiPods_Tests-acknowledgements.markdown */,
+				356911993451D61DCF3BE0CA3E58C7D5 /* Pods-YousmiPods_Tests-acknowledgements.plist */,
+				578EEBFF2927AD2CA5668BE71F7A666B /* Pods-YousmiPods_Tests-dummy.m */,
+				B840D8EFD87C0487DB558A7AB0910A68 /* Pods-YousmiPods_Tests-frameworks.sh */,
+				3E7913CDB345369A0FF97F32EDA818F9 /* Pods-YousmiPods_Tests-resources.sh */,
+				800A5D9004C72DF40BC8B9D36E4A3D05 /* Pods-YousmiPods_Tests-umbrella.h */,
+				9B3BA1E747782776310D33E4AB96AA66 /* Pods-YousmiPods_Tests.debug.xcconfig */,
+				EDA381D24EA1BDBC34F6A896CFF5E39F /* Pods-YousmiPods_Tests.release.xcconfig */,
+			);
+			name = "Pods-YousmiPods_Tests";
+			path = "Target Support Files/Pods-YousmiPods_Tests";
+			sourceTree = "<group>";
+		};
+		F937CC3E855DE1874ABC91A0CDD4B3F4 /* Pods-YousmiPods_Example */ = {
+			isa = PBXGroup;
+			children = (
+				03C8EAD49C2A918582E302295046F027 /* Info.plist */,
+				7A380B3EC2FE44362710DA62FD651935 /* Pods-YousmiPods_Example.modulemap */,
+				00C59B62C7F0804F4E774C967DA78BF9 /* Pods-YousmiPods_Example-acknowledgements.markdown */,
+				FCCDCB751934ED1336C8D1B113D09A48 /* Pods-YousmiPods_Example-acknowledgements.plist */,
+				59F1D28EADDE55854E4AAC193FB56F0C /* Pods-YousmiPods_Example-dummy.m */,
+				4CA3CB1410C7AE08652DDA26D7C4FF9E /* Pods-YousmiPods_Example-frameworks.sh */,
+				DA5DA0F095412E31FDE4A9EE566ED0A1 /* Pods-YousmiPods_Example-resources.sh */,
+				93518453818E460BB18F54629B80F45D /* Pods-YousmiPods_Example-umbrella.h */,
+				DBF3A4285D22407625C44666221C9CFE /* Pods-YousmiPods_Example.debug.xcconfig */,
+				0F77FCC4454A7774CAAF9187C426DBD4 /* Pods-YousmiPods_Example.release.xcconfig */,
+			);
+			name = "Pods-YousmiPods_Example";
+			path = "Target Support Files/Pods-YousmiPods_Example";
+			sourceTree = "<group>";
+		};
+		FBAD5B53E0587BC38BB539D40EF1996E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F937CC3E855DE1874ABC91A0CDD4B3F4 /* Pods-YousmiPods_Example */,
+				F0A599C1B311A4A922F2AB699A71424C /* Pods-YousmiPods_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A16D2ECC64E2D5347F1AC047F8E0181 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A6052B2C5B26844B49C076F1298B8D /* Pods-YousmiPods_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FFE9A70720D4F4DFD2A805122AED47E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21E543CAD429259C59758C93751E538 /* YousmiPods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AA7AA47840CB054C5E629D47D85092 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E265C86EC067D41E255FD0B3852381F /* Pods-YousmiPods_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FD8660E681F4E4A554E34FAABDB2BE6 /* Pods-YousmiPods_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41C959BF11030150833122A5110571E /* Build configuration list for PBXNativeTarget "Pods-YousmiPods_Example" */;
+			buildPhases = (
+				2FBAC7AAEF4CC061C137782D83B84AEB /* Sources */,
+				8BD4440AAA3B5D4B2414C805D79F417D /* Frameworks */,
+				B0AA7AA47840CB054C5E629D47D85092 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB06AA05695B11AC6D5185ABBFBE789 /* PBXTargetDependency */,
+			);
+			name = "Pods-YousmiPods_Example";
+			productName = "Pods-YousmiPods_Example";
+			productReference = 6930E0DDC25A85A8DFEC06133CF3E1C8 /* Pods_YousmiPods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A3527B9B2B0D9A9E17A973208135515 /* YousmiPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB468BA84DC4914209C67048231FEBF /* Build configuration list for PBXNativeTarget "YousmiPods" */;
+			buildPhases = (
+				F511D6C0D9CC33FE73741D195A034EE1 /* Sources */,
+				14C63CCE1254E2026C27FC5459E5AD26 /* Frameworks */,
+				0FFE9A70720D4F4DFD2A805122AED47E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YousmiPods;
+			productName = YousmiPods;
+			productReference = C929FCDE8619272C4059A8A273319E31 /* YousmiPods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D423D2C0D4B10CCD9BDB4E1AD607C031 /* Pods-YousmiPods_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B330CB952CC7DCFEEB260FD4AD1FAC /* Build configuration list for PBXNativeTarget "Pods-YousmiPods_Tests" */;
+			buildPhases = (
+				E9F7146061140FDFD697138B90665EF0 /* Sources */,
+				AEFF21D75DE64CBEF1F815F429C64D8E /* Frameworks */,
+				0A16D2ECC64E2D5347F1AC047F8E0181 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9BCFF78C2D8AC2791CCE904A783FE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-YousmiPods_Tests";
+			productName = "Pods-YousmiPods_Tests";
+			productReference = 0C32EB2630ED8D9312D9C6760F2C580F /* Pods_YousmiPods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99B537F1BF358591A8105723001E3441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD8660E681F4E4A554E34FAABDB2BE6 /* Pods-YousmiPods_Example */,
+				D423D2C0D4B10CCD9BDB4E1AD607C031 /* Pods-YousmiPods_Tests */,
+				9A3527B9B2B0D9A9E17A973208135515 /* YousmiPods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBAC7AAEF4CC061C137782D83B84AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EAF2DFB131083971AD6D5C5EA5B5E9E /* Pods-YousmiPods_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F7146061140FDFD697138B90665EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D48A2D16BAA329DFC194CDDD10DAB4 /* Pods-YousmiPods_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F511D6C0D9CC33FE73741D195A034EE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447FF328F15656A3D4748839BC1E072A /* ReplaceMe.m in Sources */,
+				FB840F7890FE3E0BC1B53396646A24E9 /* YousmiPods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9BCFF78C2D8AC2791CCE904A783FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YousmiPods_Example";
+			target = 2FD8660E681F4E4A554E34FAABDB2BE6 /* Pods-YousmiPods_Example */;
+			targetProxy = A0E15A589B98E972746614A77952E968 /* PBXContainerItemProxy */;
+		};
+		4BB06AA05695B11AC6D5185ABBFBE789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YousmiPods;
+			target = 9A3527B9B2B0D9A9E17A973208135515 /* YousmiPods */;
+			targetProxy = 64FD6B2B282A65337D01477F0CBD7B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D97F97A82D860B19DE1B34EDA037F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F77FCC4454A7774CAAF9187C426DBD4 /* Pods-YousmiPods_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YousmiPods_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YousmiPods_Example/Pods-YousmiPods_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64810A6E73CAAB6BD41F65260C6E5A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA381D24EA1BDBC34F6A896CFF5E39F /* Pods-YousmiPods_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YousmiPods_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YousmiPods_Tests/Pods-YousmiPods_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		902A5FFF8E56957910CEEF2C5CF45F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF3A4285D22407625C44666221C9CFE /* Pods-YousmiPods_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YousmiPods_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YousmiPods_Example/Pods-YousmiPods_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB3EA8CDE67810D6BC026B5EC5D177DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342374A1D8DB0A67AC5E404ECC7597D1 /* YousmiPods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YousmiPods/YousmiPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YousmiPods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YousmiPods/YousmiPods.modulemap";
+				PRODUCT_MODULE_NAME = YousmiPods;
+				PRODUCT_NAME = YousmiPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F95FD8814D1333D2F6E3A8AD70EEFA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342374A1D8DB0A67AC5E404ECC7597D1 /* YousmiPods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YousmiPods/YousmiPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YousmiPods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YousmiPods/YousmiPods.modulemap";
+				PRODUCT_MODULE_NAME = YousmiPods;
+				PRODUCT_NAME = YousmiPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEADF9502B309B6F12F4A3BF0C5F5D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3BA1E747782776310D33E4AB96AA66 /* Pods-YousmiPods_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YousmiPods_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YousmiPods_Tests/Pods-YousmiPods_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41C959BF11030150833122A5110571E /* Build configuration list for PBXNativeTarget "Pods-YousmiPods_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902A5FFF8E56957910CEEF2C5CF45F10 /* Debug */,
+				5D97F97A82D860B19DE1B34EDA037F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B330CB952CC7DCFEEB260FD4AD1FAC /* Build configuration list for PBXNativeTarget "Pods-YousmiPods_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEADF9502B309B6F12F4A3BF0C5F5D54 /* Debug */,
+				64810A6E73CAAB6BD41F65260C6E5A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB468BA84DC4914209C67048231FEBF /* Build configuration list for PBXNativeTarget "YousmiPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3EA8CDE67810D6BC026B5EC5D177DD /* Debug */,
+				F95FD8814D1333D2F6E3A8AD70EEFA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
