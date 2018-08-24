@@ -16,6 +16,8 @@
 		C21E543CAD429259C59758C93751E538 /* YousmiPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EF693898C0C772700A91543E13CF0C /* YousmiPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4D48A2D16BAA329DFC194CDDD10DAB4 /* Pods-YousmiPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578EEBFF2927AD2CA5668BE71F7A666B /* Pods-YousmiPods_Tests-dummy.m */; };
 		C9C8B08F810DD6F2BFF1070F9946F58B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D4670987212FF356007A141E /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D4670985212FF355007A141E /* NSData+GIF.m */; };
+		D4670988212FF356007A141E /* NSData+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = D4670986212FF355007A141E /* NSData+GIF.h */; };
 		FB840F7890FE3E0BC1B53396646A24E9 /* YousmiPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3E0C2512B6EECC1F49D3F1F6DB75B4 /* YousmiPods-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +42,7 @@
 		00C59B62C7F0804F4E774C967DA78BF9 /* Pods-YousmiPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YousmiPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0359AF9C7B45DE65B1C4F7A67BE1CED0 /* YousmiPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YousmiPods.modulemap; sourceTree = "<group>"; };
 		03C8EAD49C2A918582E302295046F027 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C32EB2630ED8D9312D9C6760F2C580F /* Pods_YousmiPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YousmiPods_Tests.framework; path = "Pods-YousmiPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C32EB2630ED8D9312D9C6760F2C580F /* Pods_YousmiPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YousmiPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F77FCC4454A7774CAAF9187C426DBD4 /* Pods-YousmiPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		342374A1D8DB0A67AC5E404ECC7597D1 /* YousmiPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YousmiPods.xcconfig; sourceTree = "<group>"; };
 		356911993451D61DCF3BE0CA3E58C7D5 /* Pods-YousmiPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YousmiPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -51,25 +53,27 @@
 		578EEBFF2927AD2CA5668BE71F7A666B /* Pods-YousmiPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YousmiPods_Tests-dummy.m"; sourceTree = "<group>"; };
 		59F1D28EADDE55854E4AAC193FB56F0C /* Pods-YousmiPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YousmiPods_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6930E0DDC25A85A8DFEC06133CF3E1C8 /* Pods_YousmiPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YousmiPods_Example.framework; path = "Pods-YousmiPods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6930E0DDC25A85A8DFEC06133CF3E1C8 /* Pods_YousmiPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YousmiPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C35590ADD252435EF223572A3C861D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A380B3EC2FE44362710DA62FD651935 /* Pods-YousmiPods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YousmiPods_Example.modulemap"; sourceTree = "<group>"; };
 		7C37ED528ECDB683C5DA96218CEEA8E8 /* YousmiPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YousmiPods-prefix.pch"; sourceTree = "<group>"; };
 		800A5D9004C72DF40BC8B9D36E4A3D05 /* Pods-YousmiPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YousmiPods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93518453818E460BB18F54629B80F45D /* Pods-YousmiPods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YousmiPods_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B3BA1E747782776310D33E4AB96AA66 /* Pods-YousmiPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8E1059DE53FAF56A9F69F11B3644CEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A8E1059DE53FAF56A9F69F11B3644CEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B840D8EFD87C0487DB558A7AB0910A68 /* Pods-YousmiPods_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C929FCDE8619272C4059A8A273319E31 /* YousmiPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YousmiPods.framework; path = YousmiPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E7CE8C9EAE3AC655E7102FD9AC9C90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C929FCDE8619272C4059A8A273319E31 /* YousmiPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YousmiPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E7CE8C9EAE3AC655E7102FD9AC9C90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D4670985212FF355007A141E /* NSData+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+GIF.m"; path = "YousmiPods/Classes/NSData+GIF.m"; sourceTree = "<group>"; };
+		D4670986212FF355007A141E /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+GIF.h"; path = "YousmiPods/Classes/NSData+GIF.h"; sourceTree = "<group>"; };
 		DA5DA0F095412E31FDE4A9EE566ED0A1 /* Pods-YousmiPods_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YousmiPods_Example-resources.sh"; sourceTree = "<group>"; };
 		DBF3A4285D22407625C44666221C9CFE /* Pods-YousmiPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EBD5728A9AA3CC8D4530A9AFD9632646 /* Pods-YousmiPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YousmiPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EDA381D24EA1BDBC34F6A896CFF5E39F /* Pods-YousmiPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YousmiPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F224B8D3772AFCB4C4173C6953706E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6EF693898C0C772700A91543E13CF0C /* YousmiPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YousmiPods-umbrella.h"; sourceTree = "<group>"; };
-		F9307C6C5FFD22FA782F6D6F3B4069E3 /* YousmiPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YousmiPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9307C6C5FFD22FA782F6D6F3B4069E3 /* YousmiPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YousmiPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCCDCB751934ED1336C8D1B113D09A48 /* Pods-YousmiPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YousmiPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE3E0C2512B6EECC1F49D3F1F6DB75B4 /* YousmiPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YousmiPods-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +170,8 @@
 		B9405C68372490620DF868F925C958E5 /* YousmiPods */ = {
 			isa = PBXGroup;
 			children = (
+				D4670986212FF355007A141E /* NSData+GIF.h */,
+				D4670985212FF355007A141E /* NSData+GIF.m */,
 				536F2E149E01A8755B196C2143B5998D /* ReplaceMe.m */,
 				45F29C6CDB5A3FE873914862ECBA8B59 /* Pod */,
 				9B1935274E6BADD11C91613F827CE425 /* Support Files */,
@@ -250,6 +256,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4670988212FF356007A141E /* NSData+GIF.h in Headers */,
 				1E265C86EC067D41E255FD0B3852381F /* Pods-YousmiPods_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EAF2DFB131083971AD6D5C5EA5B5E9E /* Pods-YousmiPods_Example-dummy.m in Sources */,
+				D4670987212FF356007A141E /* NSData+GIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
