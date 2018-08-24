@@ -55,7 +55,6 @@
             CFRelease(source);
             return self;
         }
-        image = [image fastCropToSize:size];
         
         NSDictionary *frameProperties = CFBridgingRelease(CGImageSourceCopyPropertiesAtIndex(source, i, NULL));
 
